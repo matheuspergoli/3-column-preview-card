@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap');
+
+:root {
+    --bright-orange: hsl(31, 77%, 52%);
+    --dark-cyan: hsl(184, 100%, 22%);
+    --very-dark-cyan: hsl(179, 100%, 13%);
+
+    --transparent-white: hsla(0, 0%, 100%, 0.75); /*Paragraphs*/
+    --very-light-gray: hsl(0, 0%, 95%); /*Background, Headings, Buttons*/
+
+    --font-lexand-deca: 'Lexend Deca', sans-serif;
+    --font-big-shoulders-display: 'Lexend Deca', sans-serif;
+}
+
+*, *::after, *::before {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+*::selection {
+    background-color: transparent;
+    color: none;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    background-color: var(--very-light-gray);
+}
+
+.main-content {
+    display: flex;
+    flex-direction: row;
+}
+
+.section-first {
+    width: 310px;
+    height: 450px;
+    border-radius: 10px 0px 0px 10px;
+    background-color: var(--bright-orange);
+}
+
+.section-second {
+    width: 310px;
+    height: 450px;
+    background-color: var(--dark-cyan);
+}
+
+.section-third {
+    width: 310px;
+    height: 450px;
+    border-radius: 0px 10px 10px 0px;
+    background-color: var(--very-dark-cyan);
+}
