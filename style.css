@@ -9,7 +9,7 @@
     --very-light-gray: hsl(0, 0%, 95%); /*Background, Headings, Buttons*/
 
     --font-lexand-deca: 'Lexend Deca', sans-serif;
-    --font-big-shoulders-display: 'Lexend Deca', sans-serif;
+    --font-big-shoulders-display: 'Big Shoulders Display', sans-serif;
 }
 
 *, *::after, *::before {
@@ -40,8 +40,31 @@ body {
 .section-first {
     width: 310px;
     height: 450px;
+    padding: 35px 45px ;
     border-radius: 10px 0px 0px 10px;
     background-color: var(--bright-orange);
+}
+
+.section-img-first {
+    height: 80px;
+    border: 1px solid black;
+    background-repeat: no-repeat;
+    background-image: url(images/icon-sedans.svg);
+}
+
+.first-heading {
+    height: 80px;
+    text-transform: uppercase;
+    font-size: 2.2em;
+    border: 1px solid black;
+    color: var(--very-light-gray);
+    font-family: var(--font-big-shoulders-display);
+}
+
+.first-paragraph {
+    border: 1px solid black;
+    color: var(--transparent-white);
+    font-family: var(--font-lexand-deca);
 }
 
 .section-second {
