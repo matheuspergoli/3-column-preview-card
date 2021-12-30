@@ -190,3 +190,45 @@ body {
     border: 2px solid var(--very-light-gray);
 }
 /*End third section*/
+
+
+
+
+@media (max-width: 930px) {
+    body {
+        align-items: flex-start;
+        width: 100vw;
+        height: 1280px;
+        padding: 25px;
+    }
+
+    .main-content {
+        flex-direction: column;
+    }
+
+    .section-first {
+        border-radius: 10px 10px 0px 0px;
+    }
+
+    .section-third {
+        border-radius: 0px 0px 10px 10px;
+    }
+
+    .section-first,
+    .section-second,
+    .section-third {
+        height: 410px;
+    }
+
+    .section-img-first,
+    .section-img-second,
+    .section-img-third {
+        height: 60px;
+    }
+
+    .first-paragraph,
+    .second-paragraph,
+    .third-paragraph {
+        height: 150px;
+    }
+}
