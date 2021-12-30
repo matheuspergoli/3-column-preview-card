@@ -41,7 +41,7 @@ body {
 .section-first {
     width: 310px;
     height: 480px;
-    padding: 35px 45px ;
+    padding: 35px 45px;
     border-radius: 10px 0px 0px 10px;
     background-color: var(--bright-orange);
 }
@@ -88,7 +88,47 @@ body {
 .section-second {
     width: 310px;
     height: 480px;
+    padding: 35px 45px ;
     background-color: var(--dark-cyan);
+}
+
+.section-img-second {
+    height: 80px;
+    background-repeat: no-repeat;
+    background-image: url(images/icon-suvs.svg);
+}
+
+.second-heading {
+    height: 70px;
+    text-transform: uppercase;
+    font-size: 2.5em;
+    color: var(--very-light-gray);
+    font-family: var(--font-big-shoulders-display);
+}
+
+.second-paragraph {
+    line-height: 25px;
+    height: 200px;
+    color: var(--transparent-white);
+    font-family: var(--font-lexand-deca);
+}
+
+.second-button {
+    border: none;
+    width: 150px;
+    height: 50px;
+    font-size: 1em;
+    cursor: pointer;
+    border-radius: 60px;
+    font-family: var(--font-lexand-deca);
+    color: var(--dark-cyan);
+    background-color: var(--very-light-gray);
+}
+
+.second-button:hover {
+    color: var(--very-light-gray);
+    background-color: var(--dark-cyan);
+    border: 2px solid var(--very-light-gray);
 }
 
 .section-third {
