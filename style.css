@@ -197,7 +197,6 @@ body {
 @media (max-width: 930px) {
     body {
         align-items: flex-start;
-        width: 100vw;
         height: 1280px;
         padding: 25px;
     }
